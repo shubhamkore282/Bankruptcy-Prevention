@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Nov 28 09:43:59 2021
+Created on Fri Jan 06 09:43:59 2021
 
-@author: gargi
+@author: shubham
 """
 import numpy as np
 import pickle
@@ -12,7 +12,7 @@ import streamlit as st
 
 from PIL import Image
 
-pickle_in = open("/home/gargi/Documents/comp/model_poly.pkl","rb")
+pickle_in = open("model_poly.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 def welcome():
